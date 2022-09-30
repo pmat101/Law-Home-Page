@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+body {
+  background-color: #2b2922;
+  color: #fff;
+  background-image: url("/assets/justice.jpg");
+  background-position: center 40vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 80% 50%;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+.navbar {
+  position: relative;
+}
+
+.navbar div:nth-child(1) {
+  position: absolute;
+  top: 1vh;
+  left: 10vw;
+}
+
+.navbar div:nth-child(2) {
+  width: 40%;
+  margin-left: 40%;
+}
+
+.list-item {
+  display: inline-block;
+  margin: 1em 0 1em 1em;
+  padding: 1em 0 1em 1em;
+  opacity: 0.5;
+}
+
+.list-item:nth-child(1) {
+  opacity: 1;
+  font-weight: 700;
+}
+
+.navbar div:nth-child(3) {
+  position: absolute;
+  top: 3vh;
+  right: 10vw;
+}
+
+.button-small {
+  color: #978735;
+  font-weight: 700;
+  background-color: #2b2922;
+  border: 1px solid #978735;
+  padding: 1em 2em;
+  border-radius: 0.8em;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero {
+  position: relative;
+}
+
+.hero-heading {
+  position: absolute;
+  top: 1vh;
+  left: 10vw;
+  width: 50vw;
+  font-size: 4em;
+  padding-right: 2em;
+}
+
+.hero-body {
+  position: absolute;
+  top: 6vh;
+  right: 6vw;
+  width: 40vw;
+  padding-right: 10em;
+  opacity: 0.8;
+}
+
+.bottom {
+  position: absolute;
+  right: 10vw;
+  top: 77vh;
+}
+
+.button-large-prev::before {
+  content: "\25EF";
+  font-size: 1.3em;
+  z-index: 1;
+  position: absolute;
+  top: 0.13em;
+  left: 0.26em;
+}
+
+.button-large-prev {
+  color: #978735;
+  font-size: 2em;
+  background-color: #39372d;
+  display: inline-block;
+  padding: 0.36em 0.72em;
+  margin-right: -0.1em;
+}
+
+.button-large-next {
+  color: #fff;
+  font-size: 2em;
+  background-color: #978735;
+  display: inline-block;
+  padding: 0.36em 0.72em;
+  margin-left: -0.1em;
+}
+
+.button-large-next::after {
+  content: "\25EF";
+  font-size: 1.3em;
+  color: #fff;
+  z-index: 1;
+  position: absolute;
+  top: 0.13em;
+  right: 0.26em;
+}
